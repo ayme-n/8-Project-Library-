@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+table,tr,th,td{
+    border: 2px  #815441 solid;
+    text-align: left;
+    
+}
+
+
+
+th:nth-child(3),td:nth-child(3),td:nth-child(4),td:nth-child(5){
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow:5px 5px 30px 5px rgba(0, 0, 0, 0.4);
+}
+
+.add_book{
+    box-shadow:5px 5px 5px 2px rgba(94, 51, 19, 0.3);
+}
+
+
+th,td{
+    padding: 6px;
+}
+
+
+.form_container{
+    display: none;
+    justify-self: center;
+    color: #7b4129;
+    background-color:    #B88670;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+input {
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+    color: #7b4129;
+    background-color:  #E0CBC2;
+    margin-left: 15px;
+}
+input:focus{
+    border: 2px #7b4129 solid;
+}
+
+#title{
+    margin-right: 15px;
+}
+#pages{
+    margin-right: 3px;
+}
+body {
+    display: grid;
+    background-color:  #AA6F55;
+}
+#submit{
+margin-left: 95px;
+}
+
+tr:nth-child(even),th{
+    background-color:  #C59D8B;
+    color: white;
+}
+
+tr:nth-child(even){
+    color:#7b4129;
+    
+}
+
+tr:nth-child(odd),th{
+    background-color:   #B88670;
+    color: white;
+}
+
+
+.container{
+
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap : 30px;
+    grid-template-columns: 1fr;
+    width: 39em;
+    justify-self: center;
+
+
+}
+
+tr:nth-child(even) button{
+     color:  white;
+    background-color:    #AA6F55;
+}
+
+tr:nth-child(even) button:hover{
+    background-color:    #8F5D47;
+}
+
+tr:nth-child(odd) button:hover{
+    background-color:     #AA6F55;
+}
+
+button,#submit{
+        height: 30px;
+
+border: none;
+    border-radius: 4px;
+    color:  #815441;
+    background-color:    #E0CBC2;
+}
+
+.remove{    width: 60px;
+    
+}
+
+.toggle{
+    width: 110px;
+
+}
+#submit{
+    width: 60px;
+}
+.add_book{
+    width: 130px;
+    justify-self: center;
+    height: 45px;
+    font-size: 1rem;
+   font-weight: bold;
+   background-color: #E0CBC2;
+
+}
+
+.add_book:hover{
+
+   background-color:   #C59D8B;
+
+}
+
+
